@@ -1,11 +1,13 @@
 html {
     background-color: #7191aa;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
+    /* font-size:calc(16px + (64px - 16) * ( (100vw - 320px) / ( 1600px - 320px )) ); */
 }
 
 header {
@@ -75,9 +77,13 @@ section{
 .content p{
     display:inline-block;
     text-align: left;
+    column-width: 300px;
+    column-gap: 3em;
 }
 
-.content p::first-letter{
+
+
+.content p::::first-letter{
     font-size: 200%;
     float:left;
     padding:0.2em;
@@ -92,4 +98,10 @@ img{
     border: 2px solid white;
 
 
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300,1fr));
+    grid-auto-rows: 1fr;
 }
