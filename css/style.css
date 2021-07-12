@@ -1,0 +1,95 @@
+html {
+    background-color: #7191aa;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('../img/health.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 18px 25px gray;
+    padding: 3em;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0.2em;
+    font-size: 7vw;
+    color: white;
+    text-shadow: 10px 20px 40px azure;
+}
+
+header p {
+    padding: 0.2em;
+    font-size: 4vw;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 20px 40px azure;
+}
+
+header a {
+    display: inline-block;
+    font-size: 4vw;
+    color: azure;
+    border: 5px solid white;
+    background: #801a1c98;
+    padding: 0.2em 0.4em;
+    text-decoration: none;
+    transition: background-color .3s ease-in-out;
+    margin-left: 0.5em;
+}
+
+header a:hover {
+    background-color: #edb898b2;
+}
+
+
+article, section{
+    color:white;
+    margin:1em;
+    padding:1em;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+article > *, section > *{
+    flex:1 1 10%;
+}
+
+article{
+    font-size:2em;
+}
+section{
+    border:2px solid white;
+}
+
+.content{
+    padding: 1em;
+    text-align:center;
+}
+.content p{
+    display:inline-block;
+    text-align: left;
+}
+
+.content p::first-letter{
+    font-size: 200%;
+    float:left;
+    padding:0.2em;
+}
+
+img{
+    margin:auto;
+    height:100%;
+    max-width: 400px;
+    display:block;
+    object-fit:cover;
+    border: 2px solid white;
+
+
+}
