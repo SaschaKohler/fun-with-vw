@@ -7,7 +7,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
-    /* font-size:calc(16px + (64px - 16) * ( (100vw - 320px) / ( 1600px - 320px )) ); */
+    font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
 }
 
 header, footer {
@@ -15,23 +15,22 @@ header, footer {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 18px 25px gray;
-    
 }
-footer{
-    padding:2em;
+
+footer {
+    padding: 2em;
 }
 
 header h1 {
     margin: 0;
     padding: 0.2em;
-    font-size: 4vw;
     color: white;
     text-shadow: 10px 20px 40px azure;
 }
 
 header p {
     padding: 0.2em;
-    font-size: 3vw;
+    /* font-size: 3vw; */
     color: white;
     font-weight: bold;
     text-shadow: 10px 20px 40px azure;
@@ -39,7 +38,7 @@ header p {
 
 header a.start {
     display: inline-block;
-    font-size: 4vw;
+    /* font-size: 4vw; */
     color: azure;
     border: 5px solid white;
     background: #801a1c98;
@@ -51,7 +50,7 @@ header a.start {
 
 nav ul {
     margin-top: 1em;
-    font-size: 200%;
+    /* font-size: 200%; */
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -59,15 +58,15 @@ nav ul {
     justify-content: space-around;
     background-color: #a5a9b5af;
 }
-nav ul li{
-    width:200px;
 
+nav ul li {
+    width: 200px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
-    display:block;
-    color:white;
+    display: block;
+    color: white;
     text-align: center;
 }
 
@@ -88,7 +87,7 @@ article>*, section>* {
 }
 
 article {
-    font-size: 2em;
+    /* font-size: 2em; */
 }
 
 section {
@@ -120,16 +119,17 @@ img {
     border: 2px solid white;
 }
 
-footer{
+footer {
     border-top: 3px solid white;
 }
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     /* grid-auto-rows: 1fr; */
 }
 
-.grid p  {
+.grid p {
     background: grey;
     padding: 1em;
     border: 2px solid black;
@@ -142,7 +142,6 @@ table {
     width: 100%;
 }
 
-
 tr, td, th {
     border: 1px solid black;
 }
@@ -154,6 +153,7 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
     background: #c7809aab;
 }
-thead tr{
-    background:#41573cb2;
+
+thead tr {
+    background: #41573cb2;
 }
