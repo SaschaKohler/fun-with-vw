@@ -24,7 +24,7 @@ footer{
 header h1 {
     margin: 0;
     padding: 0.2em;
-    font-size: 7vw;
+    font-size: 4vw;
     color: white;
     text-shadow: 10px 20px 40px azure;
 }
@@ -49,24 +49,24 @@ header a.start {
     margin-left: 0.5em;
 }
 
-nav ul{
-    margin-top:1em;
-    font-size:200%;
-    padding:0;
+nav ul {
+    margin-top: 1em;
+    font-size: 200%;
+    padding: 0;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     list-style-type: none;
-    justify-content:space-between;
+    justify-content: space-around;
+    background-color: #a5a9b5af;
 }
 nav ul li{
-    width:100%;
+    width:200px;
 
 }
 
 nav a{
     text-decoration: none;
     display:block;
-    background-color: #a5a9b5af;
     color:white;
     text-align: center;
 }
